@@ -13,4 +13,5 @@ Modifications:
 other repo used:
 
 [alacritty-theme](https://github.com/alacritty/alacritty-theme)
+
 [rofi theme](https://github.com/adi1090x/rofi)
