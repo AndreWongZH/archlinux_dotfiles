@@ -9,6 +9,7 @@ Modifications:
 - terminal: alacritty
 - multiplexer: tmux
 - monitor: htop and polybar
+- compositor: picom
 
 other repo used:
 
