@@ -128,4 +128,24 @@ other repo used:
     # uncomment out the line below
     %wheel ALL=(ALL:ALL) ALL
     ```
+18. Install programs
+    ```
+    sudo pacman -S firefox neofetch picom polybar rofi tmux alacritty feh htop zsh git
+    ```
+19. Copy dot files into .config
+    ```
+    copy in .config folders for settings such as alacritty i3 picom polybar and rofi
+    copy .xinitrc and .zshrc into home directory
+    ```
+20. Install AUR installer
+    ```
+    sudo pacman -S --needed git base-devel
+    git clone https://aur.archlinux.org/yay-bin.git
+    cd yay-bin
+    makepkg -si
+
+    yay -Y --gendb
+    yay -Syu --devel
+    yay -Y --devel --save
+    ```
 
