@@ -103,3 +103,5 @@ source $ZSH/oh-my-zsh.sh
 #PROMPT='%(?.%F{green}√.%F{red}?%?) %F{blue}%~ %# '
 #RPROMPT='%*'
 ZSH_TMUX_AUTOSTART=true
+
+alias vim="nvim"

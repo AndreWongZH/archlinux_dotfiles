@@ -197,11 +197,13 @@ bindsym $mod+r mode "resize"
 
 bindsym $mod+l exec i3lock
 
+bindsym $mod+p move workspace to output right
+
 default_border none
 
 # gaps outer 10px
 gaps inner 25px
 
 exec_always --no-startup-id feh --bg-scale .config/i3/wallpaper.jpg
-exec_always --no-startup-id picom -CGb
+exec_always --no-startup-id picom -b
 exec_always --no-startup-id ~/.config/polybar/launch.sh

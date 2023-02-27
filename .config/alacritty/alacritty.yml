@@ -897,5 +897,8 @@
   #
   #
 
+  #import:
+  #- ~/.alacritty-colorscheme/themes/moonlight_ii_vscode.yaml
+
 import:
-  - ~/.alacritty-colorscheme/themes/moonlight_ii_vscode.yaml
+ - ~/.config/alacritty/themes/themes/moonlight_ii_vscode.yaml
