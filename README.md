@@ -17,6 +17,10 @@ other repo used:
 
 [rofi theme](https://github.com/adi1090x/rofi)
 
+Programs used
+[pipes.sh](https://github.com/pipeseroni/pipes.sh)
+[cava](https://github.com/karlstav/cava)
+
 ## Steps to install archlinux
 
 1. create bootable USB drive from using the archlinux iso file from their website
@@ -128,16 +132,31 @@ other repo used:
     # uncomment out the line below
     %wheel ALL=(ALL:ALL) ALL
     ```
-18. Install programs
+18. Install nvidia drivers (currently using Nvidia GTX 1060)
+    ```
+    sudo pacman -S xf86-video-nouveau mesa
+    ```
+19. Install desktop env and/or window managers
+    ```
+    sudo pacman -S xorg-server xorg-xinit xorg-apps
+
+    # for installing gnome
+    sudo pacman -S gnome
+    sudo systemctl start gdm.service
+
+    # for installing i3wm
+    sudo pacman -S i3-wm i3lock i3status xss-lock dex network-manager-applet
+    ```
+20. Install programs
     ```
     sudo pacman -S firefox neofetch picom polybar rofi tmux alacritty feh htop zsh git
     ```
-19. Copy dot files into .config
+21. Copy dot files into .config
     ```
     copy in .config folders for settings such as alacritty i3 picom polybar and rofi
     copy .xinitrc and .zshrc into home directory
     ```
-20. Install AUR installer
+22. Install AUR installer
     ```
     sudo pacman -S --needed git base-devel
     git clone https://aur.archlinux.org/yay-bin.git
@@ -147,5 +166,9 @@ other repo used:
     yay -Y --gendb
     yay -Syu --devel
     yay -Y --devel --save
+    ```
+23. Install good to have programs
+    ```
+    sudo pacman -S telegram-desktop
     ```
 
