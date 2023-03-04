@@ -1,25 +1,29 @@
 # archlinux_dotfiles
 
+![desktopimg](./images/desktop4.png)
+![desktopimg](./images/desktop2.png)
+
 Modifications:
 
 - Shell: zsh
 - windows manager: i3wm
 - window switcher: rofi
-- editor: vim and vscode
+- editor: neovim and vscode
 - terminal: alacritty
 - multiplexer: tmux
 - monitor: htop and polybar
 - compositor: picom
+- browser: firefox
 
 other repo used:
 
-[alacritty-theme](https://github.com/alacritty/alacritty-theme)
-
-[rofi theme](https://github.com/adi1090x/rofi)
+- [alacritty-theme](https://github.com/alacritty/alacritty-theme)
+- [rofi theme](https://github.com/adi1090x/rofi)
 
 Programs used
-[pipes.sh](https://github.com/pipeseroni/pipes.sh)
-[cava](https://github.com/karlstav/cava)
+- [pipes.sh](https://github.com/pipeseroni/pipes.sh)
+- [cava](https://github.com/karlstav/cava)
+- [cbonsai](https://gitlab.com/jallbrit/cbonsai)
 
 ## Steps to install archlinux
 
