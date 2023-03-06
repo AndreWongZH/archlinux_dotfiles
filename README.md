@@ -19,6 +19,7 @@ other repo used:
 
 - [alacritty-theme](https://github.com/alacritty/alacritty-theme)
 - [rofi theme](https://github.com/adi1090x/rofi)
+- [gurb2-themes](https://github.com/vinceliuice/grub2-themes)
 
 Programs used
 - [pipes.sh](https://github.com/pipeseroni/pipes.sh)
