@@ -175,5 +175,11 @@ Programs used
 23. Install good to have programs
     ```
     sudo pacman -S telegram-desktop
+    sudo pacman -S discord
+
+    sudo pacman -S docker
+
+    # a program similar to postman
+    yay insomnia   
     ```
 
