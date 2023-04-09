@@ -23,7 +23,7 @@
   # available, otherwise `xterm-256color` is used.
   #TERM: alacritty
 
-#window:
+window:
   # Window dimensions (changes require restart)
   #
   # Number of lines/columns (not pixels) in the terminal. Both lines and columns
@@ -39,16 +39,16 @@
   # Specified in number of pixels.
   # If the position is not set, the window manager will handle the placement.
   #position:
-  #  x: 0
-  #  y: 0
+  #x: 10 
+  #y: 10 
 
   # Window padding (changes require restart)
   #
   # Blank space added around the window in pixels. This padding is scaled
   # by DPI and the specified value is always added at both opposing sides.
-  #padding:
-  #  x: 0
-  #  y: 0
+  padding:
+    x: 12
+    y: 0
 
   # Spread additional padding evenly around the terminal content.
   #dynamic_padding: false
@@ -110,10 +110,11 @@
   #multiplier: 3
 
 # Font configuration
-#font:
+font:
   # Normal (roman) font face
-  #normal:
-    # Font family
+  normal:
+    family: FiraCode Nerd Font Mono
+    style: Regular  
     #
     # Default:
     #   - (macOS) Menlo
@@ -158,7 +159,7 @@
     #style: Bold Italic
 
   # Point size
-  #size: 11.0
+  size: 13.0
 
   # Offset is the extra space around each character. `offset.y` can be thought
   # of as modifying the line spacing, and `offset.x` as modifying the letter
@@ -900,5 +901,9 @@
   #import:
   #- ~/.alacritty-colorscheme/themes/moonlight_ii_vscode.yaml
 
+  #import:
+  # - ~/.config/alacritty/themes/themes/moonlight_ii_vscode.yaml
+
 import:
- - ~/.config/alacritty/themes/themes/moonlight_ii_vscode.yaml
+ - ~/.config/alacritty/tokyo-night-storm.yaml
+
