@@ -20,6 +20,11 @@ other repo used:
 - [alacritty-theme](https://github.com/alacritty/alacritty-theme)
 - [rofi theme](https://github.com/adi1090x/rofi)
 - [gurb2-themes](https://github.com/vinceliuice/grub2-themes)
+- [nerd fonts](https://www.nerdfonts.com/#home)
+- tokyo night theme
+    - [nvim](https://github.com/folke/tokyonight.nvim)
+    - [alacritty](https://github.com/zatchheems/tokyo-night-alacritty-theme)
+- [nvim packer](https://github.com/wbthomason/packer.nvim)
 
 Programs used
 - [pipes.sh](https://github.com/pipeseroni/pipes.sh)
@@ -180,6 +185,22 @@ Programs used
     sudo pacman -S docker
 
     # a program similar to postman
-    yay insomnia   
-    ```
+    yay insomnia
 
+    # for chinese and japanese characters
+    sudo pacman -S noto-fonts-cjk
+    ```
+24. Add in fonts
+    ```
+    # install FiraCode Font
+    yay nerd fira code
+
+    # update font
+    fc-cache -fv
+    fc-list
+
+    # to find your new font
+    fc-match fira -s
+
+    # update font in alacritty
+    ```
