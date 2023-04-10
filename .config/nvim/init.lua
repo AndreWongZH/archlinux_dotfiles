@@ -1,5 +1,5 @@
 require("basic.remap")
-print("hello world lua")
+require("basic.set")
 
 -- update cursor back in alacritty
 vim.cmd
@@ -9,6 +9,4 @@ vim.cmd
 		au ExitPre * :set guicursor=a:ver90
 	augroup END
 ]]
-
-
 
