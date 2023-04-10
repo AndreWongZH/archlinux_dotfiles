@@ -189,6 +189,9 @@ Programs used
 
     # for chinese and japanese characters
     sudo pacman -S noto-fonts-cjk
+
+    # for audio
+    yay pacmixer
     ```
 24. Add in fonts
     ```
