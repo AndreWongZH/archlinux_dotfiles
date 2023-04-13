@@ -69,10 +69,10 @@ bindsym $mod+d exec --no-startup-id ~/.config/rofi/launchers/type-2/launcher.sh
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
 
 # change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-#bindsym $mod+l focus up
-bindsym $mod+semicolon focus right
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -80,11 +80,11 @@ bindsym $mod+Down focus down
 bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
-# move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+semicolon move right
+# move focused
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
@@ -93,7 +93,7 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-bindsym $mod+h split h
+bindsym $mod+c split h
 
 # split in vertical orientation
 bindsym $mod+v split v
@@ -102,15 +102,18 @@ bindsym $mod+v split v
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
-bindsym $mod+e layout toggle split
+## disabled ##
+#bindsym $mod+s layout stacking
+#bindsym $mod+w layout tabbed
+#bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
-bindsym $mod+Shift+space floating toggle
+## disabled ##
+#bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
+## disabled ##
+#bindsym $mod+space focus mode_toggle
 
 # focus the parent container
 bindsym $mod+a focus parent
@@ -195,15 +198,60 @@ bindsym $mod+r mode "resize"
 #        status_command i3status
 #}
 
-bindsym $mod+l exec i3lock
+#bindsym $mod+l exec i3lock
 
 bindsym $mod+p move workspace to output right
 
-default_border none
+# set up screenshot
+bindsym Print exec flameshot full
+bindsym Shift+Print exec flameshot gui
+
+#default_border none
 
 # gaps outer 10px
 gaps inner 25px
 
+#remove title bar and set active border color to green
+client.focused #0ec48b #285577 #ffffff #2e9ef4 #0ec48b
+for_window [class="^.*"] border pixel 1
+
+# designate workspace to each monitor
+workspace 1 output HDMI-1
+workspace 3 output HDMI-1
+workspace 5 output HDMI-1
+workspace 2 output DP-3
+workspace 4 output DP-3
+workspace 6 output DP-3
+
 exec_always --no-startup-id feh --bg-scale .config/i3/wallpaper.jpg
 exec_always --no-startup-id picom -b
 exec_always --no-startup-id ~/.config/polybar/launch.sh
+
+# auto start applications and assign them to workspaces
+
+exec --no-startup-id alacritty -T neofetch --hold -e neofetch
+exec --no-startup-id alacritty -T clock --hold -e tty-clock -c
+exec --no-startup-id alacritty -T sound --hold -e cava
+exec --no-startup-id alacritty -T main
+exec --no-startup-id firefox
+exec --no-startup-id spotify-launcher
+exec --no-startup-id discord
+exec --no-startup-id alacritty -T pipe --hold -e /usr/local/bin/pipes.sh
+exec --no-startup-id alacritty -T htop --hold -e htop
+
+assign [class="firefox"] workspace 1
+
+assign [title="main"] workspace 2
+
+assign [title="neofetch"] workspace 3
+assign [title="clock"] workspace 3
+
+assign [title="sound"] workspace 4
+for_window [class="^Spotify"] move to workspace 4
+
+assign [title="htop"] workspace 5
+
+assign [class="discord"] workspace 6
+assign [title="pipe"] workspace 6
+
+
