@@ -121,12 +121,25 @@ require("nvim-tree").setup({
         show_on_dirs = true,
         show_on_open_dirs = true,
     },
+    update_focused_file = {
+        enable = true,
+        update_root = true,
+        ignore_list = {},
+    },
 })
 
-local function open_nvim_tree()
+local function open_nvim_tree(data)
 
-  -- open the tree
-  require("nvim-tree.api").tree.open()
+    local directory = vim.fn.isdirectory(data.file) == 1
+
+    if not directory then
+        return
+    end
+
+    vim.cmd.cd(data.file)
+
+    -- open the tree
+    require("nvim-tree.api").tree.open()
 end
 
 vim.api.nvim_create_autocmd({ "VimEnter" }, { callback = open_nvim_tree })

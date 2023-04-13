@@ -1,1 +1,2 @@
-print("hello from basic")
+require("basic.remap")
+require("basic.set")

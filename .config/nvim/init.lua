@@ -1,5 +1,4 @@
-require("basic.remap")
-require("basic.set")
+require("basic")
 
 -- update cursor back in alacritty
 vim.cmd
