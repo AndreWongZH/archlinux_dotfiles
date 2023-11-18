@@ -1,0 +1,142 @@
+[
+	{
+		"value": "Preparing request to https://www.phind.com/api/bing/search",
+		"name": "Text",
+		"timestamp": 1683695788476
+	},
+	{
+		"value": "Current time is 2023-05-10T05:16:28.476Z",
+		"name": "Text",
+		"timestamp": 1683695788476
+	},
+	{
+		"value": "Enable automatic URL encoding",
+		"name": "Text",
+		"timestamp": 1683695788476
+	},
+	{
+		"value": "Using default HTTP version",
+		"name": "Text",
+		"timestamp": 1683695788477
+	},
+	{
+		"value": "Enable timeout of 30000ms",
+		"name": "Text",
+		"timestamp": 1683695788477
+	},
+	{
+		"value": "Enable SSL validation",
+		"name": "Text",
+		"timestamp": 1683695788477
+	},
+	{
+		"value": "Enable cookie sending with jar of 5 cookies",
+		"name": "Text",
+		"timestamp": 1683695788477
+	},
+	{
+		"name": "Text",
+		"value": "Found bundle for host www.phind.com: 0xe2c031e71e0 [can multiplex]\n",
+		"timestamp": 1683695788478
+	},
+	{
+		"name": "Text",
+		"value": "Re-using existing connection! (#1) with host www.phind.com\n",
+		"timestamp": 1683695788478
+	},
+	{
+		"name": "Text",
+		"value": "Connected to www.phind.com (104.18.4.54) port 443 (#1)\n",
+		"timestamp": 1683695788478
+	},
+	{
+		"name": "Text",
+		"value": "Using Stream ID: 3 (easy handle 0xe2c04276800)\n",
+		"timestamp": 1683695788478
+	},
+	{
+		"name": "HeaderOut",
+		"value": "POST /api/bing/search HTTP/2\r\nHost: www.phind.com\r\nuser-agent: insomnia/2023.2.0\r\ncookie: mp_6d31cd4238973a84421371ef3929c915_mixpanel='{\"distinct_id\": \"188040e50dc66e-0d0f717812d08b-47380723-1fa400-188040e50dd8fe\",\"$device_id\": \"188040e50dc66e-0d0f717812d08b-47380723-1fa400-188040e50dd8fe\",\"$initial_referrer\": \"$direct\",\"$initial_referring_domain\": \"$direct\"}'; _ga_XCLTX4ZEX8=GS1.1.1683695228.1.1.1683695487.41.0.0; __cf_bm=zMwN3USBs.X2N78ii8umNKsbIGzc5DwPrmWdtoMX4hs-1683695441-0-AUP+EVlUgYcN6EpXOO5+Xowoxmq5mIFk5Vt99ZB/Bod6z8MJasjSX9ErArhRPjGRcNrC1LdcZze4d2o2L7zSnjo=; _ga=GA1.1.398912686.1683695229\r\ncontent-type: application/json\r\naccept: */*\r\ncontent-length: 61\r\n\r\n",
+		"timestamp": 1683695788478
+	},
+	{
+		"name": "DataOut",
+		"value": "{\"q\":\"c++ books\",\"userRankList\":{},\"browserLanguage\":\"en-US\"}",
+		"timestamp": 1683695788478
+	},
+	{
+		"name": "Text",
+		"value": "We are completely uploaded and fine\n",
+		"timestamp": 1683695788478
+	},
+	{
+		"name": "HeaderIn",
+		"value": "HTTP/2 403 \r\n",
+		"timestamp": 1683695788526
+	},
+	{
+		"name": "HeaderIn",
+		"value": "date: Wed, 10 May 2023 05:16:24 GMT\r\n",
+		"timestamp": 1683695788526
+	},
+	{
+		"name": "HeaderIn",
+		"value": "content-type: text/html; charset=UTF-8\r\n",
+		"timestamp": 1683695788526
+	},
+	{
+		"name": "HeaderIn",
+		"value": "cache-control: max-age=15\r\n",
+		"timestamp": 1683695788526
+	},
+	{
+		"name": "HeaderIn",
+		"value": "expires: Wed, 10 May 2023 05:16:39 GMT\r\n",
+		"timestamp": 1683695788526
+	},
+	{
+		"name": "HeaderIn",
+		"value": "x-frame-options: SAMEORIGIN\r\n",
+		"timestamp": 1683695788526
+	},
+	{
+		"name": "HeaderIn",
+		"value": "server: cloudflare\r\n",
+		"timestamp": 1683695788526
+	},
+	{
+		"name": "HeaderIn",
+		"value": "cf-ray: 7c4fb5bfad5ea08d-SIN\r\n",
+		"timestamp": 1683695788526
+	},
+	{
+		"name": "HeaderIn",
+		"value": "\r\n",
+		"timestamp": 1683695788526
+	},
+	{
+		"name": "Text",
+		"value": "Received 1280 B chunk",
+		"timestamp": 1683695788526
+	},
+	{
+		"name": "Text",
+		"value": "Received 1369 B chunk",
+		"timestamp": 1683695788526
+	},
+	{
+		"name": "Text",
+		"value": "Received 1369 B chunk",
+		"timestamp": 1683695788526
+	},
+	{
+		"name": "Text",
+		"value": "Received 494 B chunk",
+		"timestamp": 1683695788526
+	},
+	{
+		"name": "Text",
+		"value": "Connection #1 to host www.phind.com left intact\n",
+		"timestamp": 1683695788527
+	}
+]

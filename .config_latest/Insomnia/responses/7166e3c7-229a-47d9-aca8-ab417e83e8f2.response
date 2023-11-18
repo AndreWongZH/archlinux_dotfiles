@@ -1,0 +1,1 @@
+{"data":[{"ID":1,"CreatedAt":"2023-08-21T17:34:30.369804+08:00","UpdatedAt":"2023-08-21T17:34:30.369804+08:00","DeletedAt":null,"user_id":2,"wallet_id":2,"category_id":3,"is_expense":true,"amount":234.29,"description":"dinner with friends","date":"2023-07-07T23:04:05+08:00","name":"dinner","is_deleted":false}]}

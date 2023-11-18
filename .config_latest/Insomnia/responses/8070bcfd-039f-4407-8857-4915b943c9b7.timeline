@@ -1,0 +1,262 @@
+[
+	{
+		"value": "Preparing request to https://www.phind.com/api/bing/search",
+		"name": "Text",
+		"timestamp": 1683695445393
+	},
+	{
+		"value": "Current time is 2023-05-10T05:10:45.393Z",
+		"name": "Text",
+		"timestamp": 1683695445393
+	},
+	{
+		"value": "Enable automatic URL encoding",
+		"name": "Text",
+		"timestamp": 1683695445393
+	},
+	{
+		"value": "Using default HTTP version",
+		"name": "Text",
+		"timestamp": 1683695445396
+	},
+	{
+		"value": "Enable timeout of 30000ms",
+		"name": "Text",
+		"timestamp": 1683695445396
+	},
+	{
+		"value": "Enable SSL validation",
+		"name": "Text",
+		"timestamp": 1683695445396
+	},
+	{
+		"value": "Enable cookie sending with jar of 1 cookie",
+		"name": "Text",
+		"timestamp": 1683695445396
+	},
+	{
+		"name": "Text",
+		"value": "  Trying 104.18.5.54:443...\n",
+		"timestamp": 1683695445399
+	},
+	{
+		"name": "Text",
+		"value": "Connected to www.phind.com (104.18.5.54) port 443 (#0)\n",
+		"timestamp": 1683695445438
+	},
+	{
+		"name": "Text",
+		"value": "ALPN, offering h2\n",
+		"timestamp": 1683695445439
+	},
+	{
+		"name": "Text",
+		"value": "ALPN, offering http/1.1\n",
+		"timestamp": 1683695445439
+	},
+	{
+		"name": "Text",
+		"value": "TLSv1.3 (OUT), TLS handshake, Client hello (1):\n",
+		"timestamp": 1683695445444
+	},
+	{
+		"name": "Text",
+		"value": "TLSv1.3 (IN), TLS handshake, Server hello (2):\n",
+		"timestamp": 1683695445486
+	},
+	{
+		"name": "Text",
+		"value": "TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):\n",
+		"timestamp": 1683695445486
+	},
+	{
+		"name": "Text",
+		"value": "TLSv1.3 (IN), TLS handshake, Certificate (11):\n",
+		"timestamp": 1683695445486
+	},
+	{
+		"name": "Text",
+		"value": "TLSv1.3 (IN), TLS handshake, CERT verify (15):\n",
+		"timestamp": 1683695445488
+	},
+	{
+		"name": "Text",
+		"value": "TLSv1.3 (IN), TLS handshake, Finished (20):\n",
+		"timestamp": 1683695445489
+	},
+	{
+		"name": "Text",
+		"value": "TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):\n",
+		"timestamp": 1683695445489
+	},
+	{
+		"name": "Text",
+		"value": "TLSv1.3 (OUT), TLS handshake, Finished (20):\n",
+		"timestamp": 1683695445489
+	},
+	{
+		"name": "Text",
+		"value": "SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384\n",
+		"timestamp": 1683695445489
+	},
+	{
+		"name": "Text",
+		"value": "ALPN, server accepted to use h2\n",
+		"timestamp": 1683695445489
+	},
+	{
+		"name": "Text",
+		"value": "Server certificate:\n",
+		"timestamp": 1683695445489
+	},
+	{
+		"name": "Text",
+		"value": " subject: CN=www.phind.com\n",
+		"timestamp": 1683695445489
+	},
+	{
+		"name": "Text",
+		"value": " start date: Apr 22 17:22:59 2023 GMT\n",
+		"timestamp": 1683695445489
+	},
+	{
+		"name": "Text",
+		"value": " expire date: Jul 21 17:22:58 2023 GMT\n",
+		"timestamp": 1683695445489
+	},
+	{
+		"name": "Text",
+		"value": " subjectAltName: host \"www.phind.com\" matched cert's \"www.phind.com\"\n",
+		"timestamp": 1683695445489
+	},
+	{
+		"name": "Text",
+		"value": " issuer: C=US; O=Let's Encrypt; CN=E1\n",
+		"timestamp": 1683695445489
+	},
+	{
+		"name": "Text",
+		"value": " SSL certificate verify ok.\n",
+		"timestamp": 1683695445489
+	},
+	{
+		"name": "Text",
+		"value": "Using HTTP2, server supports multiplexing\n",
+		"timestamp": 1683695445489
+	},
+	{
+		"name": "Text",
+		"value": "Connection state changed (HTTP/2 confirmed)\n",
+		"timestamp": 1683695445489
+	},
+	{
+		"name": "Text",
+		"value": "Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0\n",
+		"timestamp": 1683695445489
+	},
+	{
+		"name": "Text",
+		"value": "Using Stream ID: 1 (easy handle 0xe2c04275000)\n",
+		"timestamp": 1683695445489
+	},
+	{
+		"name": "HeaderOut",
+		"value": "POST /api/bing/search HTTP/2\r\nHost: www.phind.com\r\nuser-agent: insomnia/2023.2.0\r\naccept: */*\r\ncontent-length: 0\r\n\r\n",
+		"timestamp": 1683695445489
+	},
+	{
+		"name": "Text",
+		"value": "TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):\n",
+		"timestamp": 1683695445528
+	},
+	{
+		"name": "Text",
+		"value": "TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):\n",
+		"timestamp": 1683695445528
+	},
+	{
+		"name": "Text",
+		"value": "old SSL session ID is stale, removing\n",
+		"timestamp": 1683695445528
+	},
+	{
+		"name": "Text",
+		"value": "Connection state changed (MAX_CONCURRENT_STREAMS == 256)!\n",
+		"timestamp": 1683695445528
+	},
+	{
+		"name": "HeaderIn",
+		"value": "HTTP/2 403 \r\n",
+		"timestamp": 1683695445535
+	},
+	{
+		"name": "HeaderIn",
+		"value": "date: Wed, 10 May 2023 05:10:41 GMT\r\n",
+		"timestamp": 1683695445535
+	},
+	{
+		"name": "HeaderIn",
+		"value": "content-type: text/html; charset=UTF-8\r\n",
+		"timestamp": 1683695445535
+	},
+	{
+		"name": "HeaderIn",
+		"value": "cache-control: max-age=15\r\n",
+		"timestamp": 1683695445535
+	},
+	{
+		"name": "HeaderIn",
+		"value": "expires: Wed, 10 May 2023 05:10:56 GMT\r\n",
+		"timestamp": 1683695445535
+	},
+	{
+		"name": "HeaderIn",
+		"value": "x-frame-options: SAMEORIGIN\r\n",
+		"timestamp": 1683695445535
+	},
+	{
+		"name": "HeaderIn",
+		"value": "set-cookie: __cf_bm=zMwN3USBs.X2N78ii8umNKsbIGzc5DwPrmWdtoMX4hs-1683695441-0-AUP+EVlUgYcN6EpXOO5+Xowoxmq5mIFk5Vt99ZB/Bod6z8MJasjSX9ErArhRPjGRcNrC1LdcZze4d2o2L7zSnjo=; path=/; expires=Wed, 10-May-23 05:40:41 GMT; domain=.phind.com; HttpOnly; Secure; SameSite=None\r\n",
+		"timestamp": 1683695445535
+	},
+	{
+		"name": "HeaderIn",
+		"value": "server: cloudflare\r\n",
+		"timestamp": 1683695445535
+	},
+	{
+		"name": "HeaderIn",
+		"value": "cf-ray: 7c4fad600d7a4074-SIN\r\n",
+		"timestamp": 1683695445535
+	},
+	{
+		"name": "HeaderIn",
+		"value": "\r\n",
+		"timestamp": 1683695445535
+	},
+	{
+		"name": "Text",
+		"value": "Received 1016 B chunk",
+		"timestamp": 1683695445535
+	},
+	{
+		"name": "Text",
+		"value": "Received 1369 B chunk",
+		"timestamp": 1683695445535
+	},
+	{
+		"name": "Text",
+		"value": "Received 1369 B chunk",
+		"timestamp": 1683695445536
+	},
+	{
+		"name": "Text",
+		"value": "Received 758 B chunk",
+		"timestamp": 1683695445536
+	},
+	{
+		"name": "Text",
+		"value": "Connection #0 to host www.phind.com left intact\n",
+		"timestamp": 1683695445536
+	}
+]

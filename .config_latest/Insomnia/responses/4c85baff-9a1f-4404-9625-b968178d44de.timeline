@@ -1,0 +1,57 @@
+[
+	{
+		"value": "Preparing request to http://172.17.0.2:3001/",
+		"name": "Text",
+		"timestamp": 1678457188238
+	},
+	{
+		"value": "Current time is 2023-03-10T14:06:28.238Z",
+		"name": "Text",
+		"timestamp": 1678457188238
+	},
+	{
+		"value": "Enable automatic URL encoding",
+		"name": "Text",
+		"timestamp": 1678457188238
+	},
+	{
+		"value": "Using default HTTP version",
+		"name": "Text",
+		"timestamp": 1678457188239
+	},
+	{
+		"value": "Enable timeout of 30000ms",
+		"name": "Text",
+		"timestamp": 1678457188239
+	},
+	{
+		"value": "Enable SSL validation",
+		"name": "Text",
+		"timestamp": 1678457188239
+	},
+	{
+		"value": "Enable cookie sending with jar of 1 cookie",
+		"name": "Text",
+		"timestamp": 1678457188239
+	},
+	{
+		"name": "Text",
+		"value": "  Trying 172.17.0.2:3001...\n",
+		"timestamp": 1678457188239
+	},
+	{
+		"name": "Text",
+		"value": "connect to 172.17.0.2 port 3001 failed: Connection refused\n",
+		"timestamp": 1678457188239
+	},
+	{
+		"name": "Text",
+		"value": "Failed to connect to 172.17.0.2 port 3001 after 0 ms: Connection refused\n",
+		"timestamp": 1678457188239
+	},
+	{
+		"name": "Text",
+		"value": "Closing connection 8\n",
+		"timestamp": 1678457188239
+	}
+]

@@ -1,0 +1,107 @@
+[
+	{
+		"value": "Preparing request to http://localhost:3001/",
+		"name": "Text",
+		"timestamp": 1678457686802
+	},
+	{
+		"value": "Current time is 2023-03-10T14:14:46.802Z",
+		"name": "Text",
+		"timestamp": 1678457686802
+	},
+	{
+		"value": "Enable automatic URL encoding",
+		"name": "Text",
+		"timestamp": 1678457686802
+	},
+	{
+		"value": "Using default HTTP version",
+		"name": "Text",
+		"timestamp": 1678457686802
+	},
+	{
+		"value": "Enable timeout of 30000ms",
+		"name": "Text",
+		"timestamp": 1678457686802
+	},
+	{
+		"value": "Enable SSL validation",
+		"name": "Text",
+		"timestamp": 1678457686802
+	},
+	{
+		"value": "Enable cookie sending with jar of 1 cookie",
+		"name": "Text",
+		"timestamp": 1678457686803
+	},
+	{
+		"name": "Text",
+		"value": "Hostname in DNS cache was stale, zapped\n",
+		"timestamp": 1678457686803
+	},
+	{
+		"name": "Text",
+		"value": "  Trying 127.0.0.1:3001...\n",
+		"timestamp": 1678457686803
+	},
+	{
+		"name": "Text",
+		"value": "Connected to localhost (127.0.0.1) port 3001 (#13)\n",
+		"timestamp": 1678457686803
+	},
+	{
+		"name": "HeaderOut",
+		"value": "GET / HTTP/1.1\r\nHost: localhost:3001\r\nUser-Agent: insomnia/2023.1.0\r\nCookie: mysession=MTY3ODQ1NjkwMnxEdi1CQkFFQ180SUFBUkFCRUFBQUhQLUNBQUVHYzNSeWFXNW5EQWNBQldOdmRXNTBBMmx1ZEFRQ0FBdz18oRs2zLmU8mY02Ev7q-IE6UrRlYfzh1FkpRXoDGXrWV0=\r\nAccept: */*\r\n\r\n",
+		"timestamp": 1678457686803
+	},
+	{
+		"name": "Text",
+		"value": "Mark bundle as not supporting multiuse\n",
+		"timestamp": 1678457686804
+	},
+	{
+		"name": "HeaderIn",
+		"value": "HTTP/1.1 200 OK\r\n",
+		"timestamp": 1678457686804
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Content-Type: application/json; charset=utf-8\r\n",
+		"timestamp": 1678457686804
+	},
+	{
+		"name": "Text",
+		"value": "Replaced cookie mysession=\"MTY3ODQ1NzY4NnxEdi1CQkFFQ180SUFBUkFCRUFBQUhQLUNBQUVHYzNSeWFXNW5EQWNBQldOdmRXNTBBMmx1ZEFRQ0FBND18fAgTUwAqowzXWz85d_e4ydMcNsMNxaJ-qK2VWVSAFxM=\" for domain localhost, path /, expire 1679062486\n",
+		"timestamp": 1678457686804
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Set-Cookie: mysession=MTY3ODQ1NzY4NnxEdi1CQkFFQ180SUFBUkFCRUFBQUhQLUNBQUVHYzNSeWFXNW5EQWNBQldOdmRXNTBBMmx1ZEFRQ0FBND18fAgTUwAqowzXWz85d_e4ydMcNsMNxaJ-qK2VWVSAFxM=; Expires=Fri, 17 Mar 2023 14:14:46 GMT; Max-Age=604800\r\n",
+		"timestamp": 1678457686804
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Date: Fri, 10 Mar 2023 14:14:46 GMT\r\n",
+		"timestamp": 1678457686804
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Content-Length: 37\r\n",
+		"timestamp": 1678457686804
+	},
+	{
+		"name": "HeaderIn",
+		"value": "\r\n",
+		"timestamp": 1678457686804
+	},
+	{
+		"name": "Text",
+		"value": "Received 37 B chunk",
+		"timestamp": 1678457686804
+	},
+	{
+		"name": "Text",
+		"value": "Connection #13 to host localhost left intact\n",
+		"timestamp": 1678457686804
+	}
+]

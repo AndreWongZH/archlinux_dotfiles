@@ -1,0 +1,107 @@
+[
+	{
+		"value": "Preparing request to http://localhost:8080/api/register",
+		"name": "Text",
+		"timestamp": 1691914188919
+	},
+	{
+		"value": "Current time is 2023-08-13T08:09:48.919Z",
+		"name": "Text",
+		"timestamp": 1691914188919
+	},
+	{
+		"value": "Enable automatic URL encoding",
+		"name": "Text",
+		"timestamp": 1691914188919
+	},
+	{
+		"value": "Using default HTTP version",
+		"name": "Text",
+		"timestamp": 1691914188920
+	},
+	{
+		"value": "Enable timeout of 30000ms",
+		"name": "Text",
+		"timestamp": 1691914188920
+	},
+	{
+		"value": "Enable SSL validation",
+		"name": "Text",
+		"timestamp": 1691914188920
+	},
+	{
+		"value": "Enable cookie sending with jar of 5 cookies",
+		"name": "Text",
+		"timestamp": 1691914188920
+	},
+	{
+		"name": "Text",
+		"value": "Found bundle for host localhost: 0x2fdc007c1260 [serially]\n",
+		"timestamp": 1691914188920
+	},
+	{
+		"name": "Text",
+		"value": "Can not multiplex, even if we wanted to!\n",
+		"timestamp": 1691914188920
+	},
+	{
+		"name": "Text",
+		"value": "Re-using existing connection! (#2) with host localhost\n",
+		"timestamp": 1691914188920
+	},
+	{
+		"name": "Text",
+		"value": "Connected to localhost (127.0.0.1) port 8080 (#2)\n",
+		"timestamp": 1691914188920
+	},
+	{
+		"name": "HeaderOut",
+		"value": "POST /api/register HTTP/1.1\r\nHost: localhost:8080\r\nUser-Agent: insomnia/2023.4.0\r\nContent-Type: application/json\r\nAccept: */*\r\nContent-Length: 48\r\n\r\n",
+		"timestamp": 1691914188920
+	},
+	{
+		"name": "DataOut",
+		"value": "{\n\t\"username\": \"thomas\",\n\t\"password\": \"123456\"\n}",
+		"timestamp": 1691914188920
+	},
+	{
+		"name": "Text",
+		"value": "Mark bundle as not supporting multiuse\n",
+		"timestamp": 1691914189025
+	},
+	{
+		"name": "HeaderIn",
+		"value": "HTTP/1.1 200 OK\r\n",
+		"timestamp": 1691914189025
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Content-Type: application/json; charset=utf-8\r\n",
+		"timestamp": 1691914189025
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Date: Sun, 13 Aug 2023 08:09:49 GMT\r\n",
+		"timestamp": 1691914189025
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Content-Length: 21\r\n",
+		"timestamp": 1691914189025
+	},
+	{
+		"name": "HeaderIn",
+		"value": "\r\n",
+		"timestamp": 1691914189025
+	},
+	{
+		"name": "Text",
+		"value": "Received 21 B chunk",
+		"timestamp": 1691914189025
+	},
+	{
+		"name": "Text",
+		"value": "Connection #2 to host localhost left intact\n",
+		"timestamp": 1691914189025
+	}
+]

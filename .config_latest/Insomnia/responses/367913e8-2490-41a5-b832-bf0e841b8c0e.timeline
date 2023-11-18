@@ -1,0 +1,112 @@
+[
+	{
+		"value": "Preparing request to http://localhost:8080/api/login",
+		"name": "Text",
+		"timestamp": 1691916345945
+	},
+	{
+		"value": "Current time is 2023-08-13T08:45:45.945Z",
+		"name": "Text",
+		"timestamp": 1691916345945
+	},
+	{
+		"value": "Enable automatic URL encoding",
+		"name": "Text",
+		"timestamp": 1691916345945
+	},
+	{
+		"value": "Using default HTTP version",
+		"name": "Text",
+		"timestamp": 1691916345946
+	},
+	{
+		"value": "Enable timeout of 30000ms",
+		"name": "Text",
+		"timestamp": 1691916345946
+	},
+	{
+		"value": "Enable SSL validation",
+		"name": "Text",
+		"timestamp": 1691916345946
+	},
+	{
+		"value": "Enable cookie sending with jar of 5 cookies",
+		"name": "Text",
+		"timestamp": 1691916345946
+	},
+	{
+		"name": "Text",
+		"value": "Connection 4 seems to be dead!\n",
+		"timestamp": 1691916345946
+	},
+	{
+		"name": "Text",
+		"value": "Closing connection 4\n",
+		"timestamp": 1691916345946
+	},
+	{
+		"name": "Text",
+		"value": "Hostname in DNS cache was stale, zapped\n",
+		"timestamp": 1691916345946
+	},
+	{
+		"name": "Text",
+		"value": "  Trying 127.0.0.1:8080...\n",
+		"timestamp": 1691916345946
+	},
+	{
+		"name": "Text",
+		"value": "Connected to localhost (127.0.0.1) port 8080 (#5)\n",
+		"timestamp": 1691916345946
+	},
+	{
+		"name": "HeaderOut",
+		"value": "POST /api/login HTTP/1.1\r\nHost: localhost:8080\r\nUser-Agent: insomnia/2023.4.0\r\nContent-Type: application/json\r\nAccept: */*\r\nContent-Length: 44\r\n\r\n",
+		"timestamp": 1691916345946
+	},
+	{
+		"name": "DataOut",
+		"value": "{\n\t\"username\": \"mark\",\n\t\"password\": \"2222\"\n}",
+		"timestamp": 1691916345946
+	},
+	{
+		"name": "Text",
+		"value": "Mark bundle as not supporting multiuse\n",
+		"timestamp": 1691916345947
+	},
+	{
+		"name": "HeaderIn",
+		"value": "HTTP/1.1 400 Bad Request\r\n",
+		"timestamp": 1691916345947
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Content-Type: application/json; charset=utf-8\r\n",
+		"timestamp": 1691916345947
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Date: Sun, 13 Aug 2023 08:45:45 GMT\r\n",
+		"timestamp": 1691916345947
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Content-Length: 113\r\n",
+		"timestamp": 1691916345947
+	},
+	{
+		"name": "HeaderIn",
+		"value": "\r\n",
+		"timestamp": 1691916345947
+	},
+	{
+		"name": "Text",
+		"value": "Received 113 B chunk",
+		"timestamp": 1691916345947
+	},
+	{
+		"name": "Text",
+		"value": "Connection #5 to host localhost left intact\n",
+		"timestamp": 1691916345947
+	}
+]

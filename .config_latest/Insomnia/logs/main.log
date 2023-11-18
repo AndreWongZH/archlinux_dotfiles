@@ -1,0 +1,13 @@
+[2023-08-26 20:56:24.437] [info]  Running version 2023.4.0
+[2023-08-26 20:56:24.591] [error] [electron client protocol] FAILED to set default protocol 'insomnia://'
+[2023-08-26 20:56:24.630] [info]  [electron client protocol] the current executable is not the default protocol for 'insomnia://'
+[2023-08-26 20:56:24.675] [info]  [electron client protocol] the default application set for 'insomnia://' is 'insomnia.desktop
+'
+[2023-08-26 20:56:26.009] [info]  [fix] Running database repairs
+[2023-08-26 20:56:26.957] [info]  [db] Initialized DB at /home/andre/.config/Insomnia/insomnia.$TYPE.db
+[2023-08-26 20:56:26.957] [info]  [db] Init responses DB
+[2023-08-26 20:56:26.958] [info]  [db] Init websocket-responses DB
+[2023-08-26 20:56:26.965] [info]  [localstorage] Initialized at /home/andre/.config/Insomnia/localStorage
+[2023-08-26 20:56:27.221] [info]  [main] Loading file:///opt/Insomnia/resources/app.asar/index.html
+[2023-08-26 20:56:27.245] [info]  [updater] Not supported on this platform linux
+[2023-08-26 20:56:31.105] [info]  [main] Window ready, handling command line arguments [ '/opt/Insomnia/insomnia' ]
